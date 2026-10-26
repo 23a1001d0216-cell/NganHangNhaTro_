@@ -1,0 +1,215 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|d:\\l\u1EADp tr\u00ECnh web n\u00E2ng cao\\nganhangnhatro\\nganhangnhatro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|solutionrelative:nganhangnhatro\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|d:\\l\u1EADp tr\u00ECnh web n\u00E2ng cao\\nganhangnhatro\\nganhangnhatro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|solutionrelative:nganhangnhatro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|d:\\l\u1EADp tr\u00ECnh web n\u00E2ng cao\\nganhangnhatro\\nganhangnhatro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|solutionrelative:nganhangnhatro\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|d:\\l\u1EADp tr\u00ECnh web n\u00E2ng cao\\nganhangnhatro\\nganhangnhatro\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|solutionrelative:nganhangnhatro\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|d:\\l\u1EADp tr\u00ECnh web n\u00E2ng cao\\nganhangnhatro\\nganhangnhatro\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|solutionrelative:nganhangnhatro\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|d:\\l\u1EADp tr\u00ECnh web n\u00E2ng cao\\nganhangnhatro\\nganhangnhatro\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|solutionrelative:nganhangnhatro\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|d:\\l\u1EADp tr\u00ECnh web n\u00E2ng cao\\nganhangnhatro\\nganhangnhatro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|solutionrelative:nganhangnhatro\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|d:\\l\u1EADp tr\u00ECnh web n\u00E2ng cao\\nganhangnhatro\\nganhangnhatro\\data\\nhatrodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|solutionrelative:nganhangnhatro\\data\\nhatrodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|d:\\l\u1EADp tr\u00ECnh web n\u00E2ng cao\\nganhangnhatro\\nganhangnhatro\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|solutionrelative:nganhangnhatro\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|d:\\l\u1EADp tr\u00ECnh web n\u00E2ng cao\\nganhangnhatro\\nganhangnhatro\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|solutionrelative:nganhangnhatro\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|d:\\l\u1EADp tr\u00ECnh web n\u00E2ng cao\\nganhangnhatro\\nganhangnhatro\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB54335-A57B-4096-BCF9-C0D1D11DF850}|NganHangNhaTro\\NganHangNhaTro.csproj|solutionrelative:nganhangnhatro\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 111,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Program.cs",
+              "RelativeDocumentMoniker": "NganHangNhaTro\\Program.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Program.cs",
+              "RelativeToolTip": "NganHangNhaTro\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T03:08:58.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "NganHangNhaTro\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "NganHangNhaTro\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-22T03:07:22.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FavoriteController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Controllers\\FavoriteController.cs",
+              "RelativeDocumentMoniker": "NganHangNhaTro\\Controllers\\FavoriteController.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Controllers\\FavoriteController.cs",
+              "RelativeToolTip": "NganHangNhaTro\\Controllers\\FavoriteController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwDwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T03:05:28.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "NganHangNhaTro\\Controllers\\RoomController.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "NganHangNhaTro\\Controllers\\RoomController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T03:04:26.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "NganHangNhaTro\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "NganHangNhaTro\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T03:02:27.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "NganHangNhaTro\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "NganHangNhaTro\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T03:33:23.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "NganHangNhaTro\\Models\\Category.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Models\\Category.cs",
+              "RelativeToolTip": "NganHangNhaTro\\Models\\Category.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T02:56:53.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NhaTroDbContext.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Data\\NhaTroDbContext.cs",
+              "RelativeDocumentMoniker": "NganHangNhaTro\\Data\\NhaTroDbContext.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Data\\NhaTroDbContext.cs",
+              "RelativeToolTip": "NganHangNhaTro\\Data\\NhaTroDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T03:13:28.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\appsettings.json",
+              "RelativeDocumentMoniker": "NganHangNhaTro\\appsettings.json",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\appsettings.json",
+              "RelativeToolTip": "NganHangNhaTro\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-22T03:17:52.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "NganHangNhaTro\\Models\\Room.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Models\\Room.cs",
+              "RelativeToolTip": "NganHangNhaTro\\Models\\Room.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T03:00:18.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Models\\Favorite.cs",
+              "RelativeDocumentMoniker": "NganHangNhaTro\\Models\\Favorite.cs",
+              "ToolTip": "D:\\L\u1EADp tr\u00ECnh web n\u00E2ng cao\\NganHangNhaTro\\NganHangNhaTro\\Models\\Favorite.cs",
+              "RelativeToolTip": "NganHangNhaTro\\Models\\Favorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T02:59:29.442Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 119,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

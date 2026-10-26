@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="container py-5">
+    <section class="p-5 mb-5 rounded-4 text-white"
+             style="background: linear-gradient(135deg, #126e51, #28a879);">
+        <h1 class="display-5 fw-bold">NGÂN HÀNG NHÀ TRỌ</h1>
+
+        <p class="lead mt-3">
+            Tìm kiếm phòng trọ phù hợp với nhu cầu của bạn.
+        </p>
+
+        <form asp-controller="Room" asp-action="Index" method="get"
+              class="row g-2 mt-4">
+            <div class="col-md-9">
+                <input type="text"
+                       name="keyword"
+                       class="form-control form-control-lg"
+                       placeholder="Nhập tên phòng hoặc địa chỉ..." />
+            </div>
+
+            <div class="col-md-3">
+                <button type="submit"
+                        class="btn btn-warning btn-lg w-100">
+                    Tìm phòng
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <h2 class="fw-bold mb-4">Tìm nhà trọ dễ dàng</h2>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body p-4">
+                    <h5 class="card-title">🔎 Tìm kiếm phòng</h5>
+                    <p class="card-text">
+                        Tìm phòng theo tên, địa chỉ và nhu cầu của bạn.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body p-4">
+                    <h5 class="card-title">🏠 Thông tin rõ ràng</h5>
+                    <p class="card-text">
+                        Xem giá thuê, diện tích, địa chỉ và mô tả phòng.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-0">
+                <div class="card-body p-4">
+                    <h5 class="card-title">❤️ Phòng yêu thích</h5>
+                    <p class="card-text">
+                        Hướng tới việc lưu lại các phòng trọ bạn quan tâm.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mt-5 text-secondary">
+        <p>Ngân Hàng Nhà Trọ - Tìm nơi ở phù hợp với bạn.</p>
+    </div>
+</div>
