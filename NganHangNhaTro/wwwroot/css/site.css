@@ -1,4 +1,4 @@
-html {
+﻿html {
   font-size: 14px;
 }
 
@@ -28,4 +28,105 @@ body {
 
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
+}
+
+/* ===== THANH CHỨC NĂNG TRÊN CÙNG ===== */
+.top-action-bar {
+    width: 100%;
+    min-height: 76px;
+    background-color: #f7f7f7;
+    border-bottom: 3px solid #e7e9f8;
+    display: flex;
+    align-items: center;
+}
+
+.top-action-container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 12px 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-top {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 11px 16px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background-color 0.2s ease;
+}
+
+.btn-login {
+    background-color: #337ab7;
+}
+
+    .btn-login:hover {
+        background-color: #286090;
+        color: #fff;
+    }
+
+.btn-provide-room {
+    background-color: #5cb85c;
+}
+
+    .btn-provide-room:hover {
+        background-color: #449d44;
+        color: #fff;
+    }
+
+/* ===== MENU CHÍNH ===== */
+.navbar {
+    min-height: 100px;
+}
+
+.navbar-brand {
+    font-size: 21px;
+}
+
+.navbar .nav-link {
+    color: #07549b;
+    padding: 16px 12px;
+    font-size: 15px;
+}
+
+    .navbar .nav-link:hover {
+        color: #219653;
+    }
+
+.navbar .dropdown-menu {
+    border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== THIẾT BỊ DI ĐỘNG ===== */
+@media (max-width: 991.98px) {
+    .navbar {
+        min-height: auto;
+    }
+
+        .navbar .nav-link {
+            padding: 10px 0;
+        }
+}
+
+@media (max-width: 576px) {
+    .top-action-container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .btn-top {
+        font-size: 12px;
+        padding: 9px 10px;
+    }
 }

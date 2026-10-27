@@ -154,7 +154,6 @@ D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\rjs
 D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\scopedcss\bundle\NganHangNhaTro.styles.css
 D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\scopedcss\projectbundle\NganHangNhaTro.bundle.scp.css
-D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\compressed\5pooscrb3h-b9sayid5wm.gz
 D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\compressed\djelwr8wca-61n19gt1b8.gz
 D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\compressed\1kpfw981mm-xtxxf3hu2r.gz
 D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\compressed\990ebfb8hu-bqjiyaj88i.gz
@@ -229,3 +228,5 @@ D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\ref
 D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\NganHangNhaTro.pdb
 D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\NganHangNhaTro.genruntimeconfig.cache
 D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\ref\NganHangNhaTro.dll
+D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\NganHangNhaTro.sourcelink.json
+D:\Lập trình web nâng cao\NganHangNhaTro\NganHangNhaTro\obj\Debug\net9.0\compressed\5pooscrb3h-my4g15zhm1.gz
