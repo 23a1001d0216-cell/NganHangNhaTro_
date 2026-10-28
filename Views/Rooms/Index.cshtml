@@ -1,0 +1,97 @@
+@model IEnumerable<Room>
+@{
+    ViewData["Title"] = "Tìm phòng trọ";
+    var locations = ViewBag.LocationCategories as List<Category> ?? new();
+    var roomTypes = ViewBag.RoomTypeCategories as List<Category> ?? new();
+}
+
+<!-- HERO BANNER TÌM KIẾM (HIỆN ĐẠI, GỌN GÀNG) -->
+<section class="hero" style="background: linear-gradient(135deg, #0f5132 0%, #198754 100%); color: white; padding: 40px 20px 50px 20px; text-align: center; margin-top: 15px; border-radius: 12px;">
+    <div style="max-width: 1000px; margin: 0 auto;">
+        <span class="eyebrow" style="background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 12px; font-size: 12px; font-weight: bold; letter-spacing: 1px;">TÌM CHỖ Ở DỄ DÀNG</span>
+        <h1 style="font-size: 2.2rem; font-weight: 800; margin: 12px 0;">Tìm phòng trọ phù hợp với bạn</h1>
+        <p style="font-size: 0.95rem; opacity: 0.9; margin-bottom: 25px;">Khám phá các tin đăng đã được kiểm duyệt, liên hệ trực tiếp với chủ trọ.</p>
+
+        <!-- Form tìm kiếm đầy đủ bộ lọc và giữ nguyên AJAX -->
+        <form id="searchForm" class="search-panel" method="get" asp-controller="Rooms" asp-action="Index" style="background: white; padding: 15px; border-radius: 12px; display: flex; gap: 10px; box-shadow: 0 10px 25px rgba(0,0,0,0.15); flex-wrap: wrap; align-items: center; text-align: left; color: #333;">
+            <input name="q" value="@ViewBag.Query" placeholder="Nhập tên phòng, khu vực, địa chỉ..." aria-label="Từ khóa" style="flex: 2; min-width: 200px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; outline: none;" />
+
+            <select name="locationCategoryId" aria-label="Khu vực" style="flex: 1; min-width: 140px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; background: #fff; font-size: 14px;">
+                <option value="">Tất cả khu vực</option>
+                @foreach (var c in locations)
+                {
+                    <option value="@c.CategoryId" selected="@(ViewBag.LocationCategoryId != null && (int)ViewBag.LocationCategoryId == c.CategoryId)">@c.CategoryName</option>
+                }
+            </select>
+
+            <select name="roomTypeCategoryId" aria-label="Loại phòng" style="flex: 1; min-width: 140px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; background: #fff; font-size: 14px;">
+                <option value="">Tất cả loại phòng</option>
+                @foreach (var c in roomTypes)
+                {
+                    <option value="@c.CategoryId" selected="@(ViewBag.RoomTypeCategoryId != null && (int)ViewBag.RoomTypeCategoryId == c.CategoryId)">@c.CategoryName</option>
+                }
+            </select>
+
+            <input name="minPrice" type="number" min="0" value="@ViewBag.MinPrice" placeholder="Giá từ" aria-label="Giá từ" style="width: 95px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px;" />
+            <input name="maxPrice" type="number" min="0" value="@ViewBag.MaxPrice" placeholder="Giá đến" aria-label="Giá đến" style="width: 95px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px;" />
+            <input name="minArea" type="number" min="0" step="0.1" value="@ViewBag.MinArea" placeholder="S từ" aria-label="Diện tích từ" style="width: 85px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px;" />
+            <input name="maxArea" type="number" min="0" step="0.1" value="@ViewBag.MaxArea" placeholder="S đến" aria-label="Diện tích đến" style="width: 85px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px;" />
+
+            <select name="amenity" aria-label="Tiện ích" style="flex: 1; min-width: 120px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; background: #fff; font-size: 14px;">
+                <option value="">Mọi tiện ích</option>
+                @foreach (var a in new[] { "Điều hòa", "Nóng lạnh", "Ban công", "Chỗ để xe", "Khép kín", "Máy giặt", "Wifi" })
+                {
+                    <option value="@a" selected="@(ViewBag.Amenity as string == a)">@a</option>
+                }
+            </select>
+
+            <select name="sort" aria-label="Sắp xếp" style="flex: 1; min-width: 130px; padding: 10px; border: 1px solid #ddd; border-radius: 8px; background: #fff; font-size: 14px;">
+                <option value="">Mới nhất</option>
+                <option value="price_asc" selected="@(ViewBag.Sort as string == "price_asc")">Giá tăng dần</option>
+                <option value="price_desc" selected="@(ViewBag.Sort as string == "price_desc")">Giá giảm dần</option>
+                <option value="area_desc" selected="@(ViewBag.Sort as string == "area_desc")">Diện tích lớn nhất</option>
+            </select>
+
+            <button class="btn btn-primary" type="submit" style="background: #198754; color: white; border: none; padding: 10px 22px; border-radius: 8px; font-weight: bold; cursor: pointer; font-size: 14px; flex: 1; min-width: 110px;">Tìm kiếm</button>
+        </form>
+    </div>
+</section>
+
+<!-- DANH SÁCH PHÒNG TRỌ -->
+<div style="max-width: 1100px; margin: 30px auto 50px auto; padding: 0 20px;">
+    <section class="section-heading" style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 20px;">
+        <div>
+            <span class="eyebrow" style="background: #ffecb5; color: #664d03; padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: bold;">DANH SÁCH PHÒNG</span>
+            <h2 style="font-size: 22px; font-weight: bold; color: #222; margin: 8px 0 0 0;">Phòng trọ đang còn trống</h2>
+        </div>
+        <span class="muted" id="resultCount" style="color: #666; font-size: 14px; font-weight: 500;">@Model.Count() kết quả</span>
+    </section>
+
+    <div id="roomResults">@await Html.PartialAsync("_RoomCards", Model)</div>
+</div>
+
+@section Scripts {
+    <script>
+        (() => {
+         const form = document.getElementById('searchForm');
+         const results = document.getElementById('roomResults');
+         let controller;
+         form.addEventListener('submit', async (e) => {
+           e.preventDefault();
+           if (controller) controller.abort();
+           controller = new AbortController();
+           const params = new URLSearchParams(new FormData(form));
+           for (const [k,v] of [...params.entries()]) if (!v) params.delete(k);
+           const url = form.action + (params.toString() ? '?' + params.toString() : '');
+           try {
+             results.innerHTML = '<div class="loading" style="text-align:center; padding:40px; color:#666;">Đang tìm phòng...</div>';
+             const response = await fetch(url + (url.includes('?') ? '&' : '?') + 'ajax=true', { headers: { 'X-Requested-With':'fetch' }, signal: controller.signal });
+             if (!response.ok) throw new Error('Không thể tải danh sách phòng.');
+             results.innerHTML = await response.text();
+             history.replaceState(null, '', url);
+             document.getElementById('resultCount').textContent = results.querySelectorAll('.room-card').length + ' kết quả';
+           } catch (err) { if (err.name !== 'AbortError') results.innerHTML = '<div class="alert error" style="color:red; text-align:center;">Có lỗi khi tìm kiếm. Vui lòng thử lại.</div>'; }
+         });
+        })();
+    </script>
+}
